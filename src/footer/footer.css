@@ -1,0 +1,17 @@
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(40, 102, 153,0.8);
+    color: white;
+    margin-top: 45px;
+    font-size: 17px;
+}
+.footer p{
+    color: white;
+}
+.footer a{
+    padding: 10px;
+}
+.footer div{
+    padding-top: 12px;
+}
