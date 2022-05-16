@@ -52,7 +52,7 @@ export default function Expirience() {
                 </div>
                 <div className='Expirience'>
                     <img src={work} width={42} height={42}></img>
-                    <h1>Expirience</h1>
+                    <h1>Experience</h1>
                 </div>
                 <div className='high-school'>
                     <div className='high'>
