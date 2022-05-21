@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.8c791804.css",
+    "main.js": "/portfolio/static/js/main.8fe06287.js",
+    "static/media/profile.jpg": "/portfolio/static/media/profile.edd3a49f4d78fae0741f.jpg",
+    "static/media/bckg.jpg": "/portfolio/static/media/bckg.a59168b3b20fb5862d35.jpg",
+    "static/media/skill.png": "/portfolio/static/media/skill.26a68f8f28ddcd88e959.png",
+    "static/media/cake.png": "/portfolio/static/media/cake.3ea8b8d1c3dedac9d09f.png",
+    "static/media/coding.png": "/portfolio/static/media/coding.6b43ee7c655f205d7c60.png",
+    "static/media/wave.png": "/portfolio/static/media/wave.4f4e46749196c98b35ae.png",
+    "static/media/candidate.png": "/portfolio/static/media/candidate.1df53faf51fda8499fe4.png",
+    "static/media/calendar.png": "/portfolio/static/media/calendar.24c974015dcc7b624f54.png",
+    "static/media/language.png": "/portfolio/static/media/language.5b53689efcef2c4e500f.png",
+    "static/media/location-pin.png": "/portfolio/static/media/location-pin.a6d58d3c02eb882e4d18.png",
+    "static/media/school-bag.png": "/portfolio/static/media/school-bag.f2bceb0a82d7bbf305d8.png",
+    "static/media/work.png": "/portfolio/static/media/work.5ff3388eb9a002ed675d.png",
+    "static/media/graduation-hat1.png": "/portfolio/static/media/graduation-hat1.6650c95498652a8c87f4.png",
+    "static/media/school.png": "/portfolio/static/media/school.a4675229f70289ad1f1d.png",
+    "static/media/phone-call.png": "/portfolio/static/media/phone-call.d35848942c955a6232b3.png",
+    "index.html": "/portfolio/index.html",
+    "main.8c791804.css.map": "/portfolio/static/css/main.8c791804.css.map",
+    "main.8fe06287.js.map": "/portfolio/static/js/main.8fe06287.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c791804.css",
+    "static/js/main.8fe06287.js"
+  ]
+}
