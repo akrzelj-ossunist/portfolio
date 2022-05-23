@@ -1,0 +1,79 @@
+.about{
+    display: flex;
+    padding: 50px;
+    padding-left: 400px;
+    margin-top: 50px;
+    padding-left: 21vw;
+    flex-wrap: wrap;
+}
+.about .profile{
+    border: 10px solid rgb(40, 102, 153,0.8);
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px lightblue;
+}
+.txtAbout{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    width: 60%;
+}
+.txt img{
+    padding-left: 10px;
+}
+.txt h1{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    animation: mymove 1s infinite;
+}
+.txt p:first-child{
+    margin-top: 30px;
+}
+.txt p{
+    margin-top: -25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.pins{
+    display: flex;
+}
+.pins p{
+    margin-top: 6px;
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bdayimg{
+    margin-left: 40px;
+}
+.fixNav{
+    margin-right: 500px;
+}
+@keyframes mymove {
+    0%   {left: 0%;}
+    50%  {left: 2%;}
+    100% {left: 0%;}
+}
+.pic{
+    transition: transform .3s ease-in-out;
+
+}
+.pic:hover{
+    transform: scale(1.2);
+}
+@media(max-width: 500px){
+    .about{
+        padding-left: 40px;
+    }
+    .txtAbout{
+        padding-left: 20px;
+        width: 100%;
+    }
+    .pins{
+        margin-left: -30px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .bdayimg{
+        margin-left: 180px;
+    }
+}
