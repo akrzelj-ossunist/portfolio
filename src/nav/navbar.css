@@ -1,0 +1,130 @@
+.navbar{
+    background-color: rgb(40, 102, 153,0.8);
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0px 10px 5px lightblue;
+}
+.navbar p{
+    color: white;
+    font-weight: bold;
+    padding-top: 5px;
+}
+.links li{
+    display: inline-block;
+    margin-right: 20px;
+    list-style-type: none;
+    border: 1px rgb(0, 0, 0, 0) solid;
+    border-radius: 5px;
+    padding: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: background-color 0.4s, border 0.1s, border-radius 0.1s,color 0.4s, transform 0.4s;
+    
+}
+.links li:hover{
+    border: 1px white solid;
+    padding: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    background-color: azure;
+    transform: scale(1.1);
+}
+.links li:hover a {
+    font-weight: bold;
+    color: rgb(40, 102, 153);
+}
+.links a{
+    font-weight: bold;
+    padding: 10px;
+    padding-top: 20px;
+    text-decoration: none;
+    color: white;
+}
+button{
+    border-radius: 5px;
+    border: 0px;
+}
+
+.drop-links{
+    position: fixed;
+    flex-direction: column;
+    width: 117px;
+    margin-left: 60%;
+    top: 60px;
+    padding: 0;
+    margin-top: -0.5px;
+    z-index: 1;
+    list-style-type: none;
+    border-radius: 10px;
+    background-color: rgb(40, 102, 153,0.8);
+    box-shadow: 5px 5px 5px lightblue;
+}
+.drop-links li{
+    padding: 10px; 
+}
+.drop-links a{
+    font-size: 18px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+.drop-links li:hover{
+    background-color: azure;
+    border: 0.5px solid rgb(40, 102, 153);
+    border-radius: 10px;
+}
+.drop-links li:hover a{
+    color: rgb(40, 102, 153);
+}
+.arrow {
+    margin-left: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-bottom: 2px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+.links li:hover .arrow {
+    border-color: rgb(40, 102, 153);
+}
+
+.ham-menu{
+    position: absolute;
+    top: 20px;
+    right: 80px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.bar{
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: solid;
+    width: 100%;
+    height: 4px;
+}
+
+@media(max-width:1000px) {
+    .links li{
+        display: none;
+    }
+    .ham-menu{
+        display: flex;
+    }
+}
+@media(max-width: 400px){
+    .ham-menu{
+        right: 30px;
+    }
+    .name {
+        margin-left: -50px;
+    }
+}
