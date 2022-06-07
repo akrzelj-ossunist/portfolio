@@ -7,7 +7,7 @@ import Projects from '../projects/Projects';
 import Contact from '../contactMe/ContactMe';
 import { useState, useEffect } from 'react'
 
-export default function Navbar( val ) {
+export default function Navbar() {
     //Toggle drop nav
     let dropStyle = {};
     const [toggle,setToggle] = useState(0)
@@ -92,16 +92,16 @@ export default function Navbar( val ) {
     return (
         <>
             <div className='navbar'>
-                <p className='name'>Welcome aboard {val.name}!</p>
+                <p className='name'>Welcome Guest!</p>
                 <a onClick={hamToggler} className="ham-menu">
                     <span className="bar"></span>
                     <span className="bar"></span>
                     <span className="bar"></span>
                 </a>
                 <ul style={dropHam} className='ham-drop-links'>
-                    <li><a onClick={hamToggler} href="#About">About me</a></li>
-                    <li><a onClick={toggleHamProjects} href="#Projects">Projects</a></li>
-                    <li><a onClick={hamToggler} href="#Social">Social media</a></li>
+                    <a onClick={hamToggler} href="#About"><li>About me</li></a>
+                    <a onClick={toggleHamProjects} href="#Projects"><li>Projects</li></a>
+                    <a onClick={hamToggler} href="#Social"><li>Social media</li></a>
                     <li onClick={hamPopUpToggler}><a>Contact me</a></li>
                 </ul>
                 <div className='mode'>
