@@ -27,6 +27,12 @@ export default function Projects( {showProjects} ) {
             link: 'https://github.com/akrzelj-ossunist/Websites',
             lang: 'HTML/CSS/JS',
         },
+        {
+            key: 5,
+            name: 'VanillaJsProjects',
+            link: 'https://github.com/akrzelj-ossunist/VanillaJsProjects',
+            lang: 'HTML/CSS/JS',
+        },
     ]
     const PrintProjects = () => {
         return(
